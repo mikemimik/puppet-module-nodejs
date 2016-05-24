@@ -11,7 +11,7 @@ class nodejs(
   # INFO: install dir is /.nvm
   exec { 'nodejs::install_nvm':
     user    => $user,
-    command => "curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | NVM_DIR=${home}/.nvm bash",
+    command => "curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | NVM_DIR=${home}/.nvm bash",
     path    => $bin,
     require => [Package['git'], Package['curl']]
   }
