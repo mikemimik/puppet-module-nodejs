@@ -1,5 +1,5 @@
 name    'mikemimik-nodejs'
-version '1.1.0'
+version '1.2.0'
 source  'https://github.com/mikemimik/puppet-module-nodejs'
 author  'Michael Perrotte'
 license 'MIT'
